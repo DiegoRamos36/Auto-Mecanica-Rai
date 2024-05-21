@@ -1,0 +1,58 @@
+.quemsomos {
+  background-color: #eee;
+ padding-top: 40px;
+  background-color: #101010;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.quemsomos-conteudo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.quemsomos h1 {
+  font-size: var(--texto-g);
+  font-family: var(--fonte-geral);
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+
+}
+
+.quemsomos h1::after {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 5px;
+  margin-top: 20px;
+  transform: skew(-45deg);
+  background-color: var(--cor-principal);
+}
+
+
+
+
+
+.quemsomos p {
+  color: #fff;
+  font-size: var(--texto-m);
+  font-family: var(--fonte-geral);
+  max-width: 900px;
+}
+
+.mini-galeria {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.mini-galeria img {
+  width: 300px;
+  height: 400px;
+ 
+}

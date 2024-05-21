@@ -1,0 +1,134 @@
+.header {
+background-color: var(--cor-principal);
+padding: 10px;
+position: sticky;
+z-index: 3;
+top: 0px;
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.logo img {
+  display: none;
+}
+
+.header-content h1 {
+  font-size: var(--texto-m);
+  font-family: var(--fonte-geral);
+  font-weight: 600;
+  color: var(--cor-texto);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-indent: 10px;
+}
+
+.header-content h1::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 30px;
+  background: url('assets/car.svg') no-repeat center;
+}
+
+.header-content ul {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.header-content li {
+  display: inline-block;
+  font-size: var(--texto-m);
+  font-family: var(--fonte-geral);
+  font-weight: 300;
+  color: var(--cor-texto);
+  padding: 10px;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.header-content ul li:hover {
+  color: var(--cor-hover);
+}
+
+.burguer-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 35px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 2px;
+  width: 100%;
+  background: white;
+  transition: all .5s ease-in-out;
+}
+
+.crashed-menu {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: all .6s ease;
+  transform: translateY(-100%);
+  opacity: 0;
+  z-index: -1;
+  background: var(--cor-texto);
+
+}
+
+.crashed-menu.show {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
+
+.crashed-menu ul li {
+  padding: 20px;
+  font-size: var(--texto-g);
+  font-family: var(--fonte-geral);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.crashed-menu ul li:hover {
+  color: #ccc;
+}
+.crashed-menu ul li:not(:last-child) {
+  border-bottom: 2px dashed #fff;
+}
+
+.crashed-menu ul li::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: var(--cor-principal);
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.crashed-menu img {
+  width: 200px;
+}

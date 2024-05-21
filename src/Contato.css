@@ -1,0 +1,85 @@
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ height: 80vh;
+  background-color: #101010;
+}
+
+
+.contato h1 {
+  font-size: var(--texto-eg);
+  font-family: var(--fonte-geral);
+  padding: 40px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+}
+
+.contato h1::before,.contato h1::after {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: var(--cor-principal);
+  border-radius: 4px;
+
+  
+}
+
+.contato h1::before {
+  margin-right: 30px;
+  transform: skew(30deg);
+}
+.contato h1::after {
+  margin-left: 30px;
+  transform: skew(-30deg);
+}
+
+
+
+.card {
+
+  border-radius: 10px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card li {
+  padding: 20px;
+  border-bottom: 1px dashed #fff;
+  font-size: var(--texto-g);
+  color: #fff;
+  display: flex;
+ text-indent: 50px;
+  align-items: center;
+}
+
+.card li:nth-child(1)::before {
+  background: url('./assets/phone.svg');
+  }
+
+.card li:nth-child(2)::before {
+background: url('./assets/facebook.svg') no-repeat center;
+}
+.card li:nth-child(3)::before {
+  background: url('./assets/camera.svg');
+}
+
+.card li:nth-child(4)::before {
+background: url('./assets/mail.svg');
+}
+
+.card li::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: var(--cor-principal);
+
+}

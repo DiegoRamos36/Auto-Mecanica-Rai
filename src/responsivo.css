@@ -1,0 +1,200 @@
+@media (max-width: 1000px) {
+  .header {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .logo img {
+    display: block;
+    max-width: 80px;
+  }
+
+  .logo h1, .logo h1::before {
+    display: none;
+  }
+ 
+  .header-content {
+    width: 95vw;
+  }
+
+  .header-content li:not(:last-child) {
+    display: none;
+  }
+
+  .burguer-menu {
+    display: flex;
+  }
+
+  .landing-page {
+    height: 100vh;
+  }
+
+  .landing-page h1 {
+    font-size: var(--texto-gg);
+  }
+  .landing-page p {
+    font-size: var(--texto-m);
+  }
+  .landing-page nav a {
+    font-size: var(--texto-p);
+  }
+
+  .servicos h2 {
+    font-size: var(--texto-m);
+    text-indent: 0px;
+    margin-left: 20px;
+  }
+  
+
+  .quemsomos-conteudo {
+    display: flex;
+    margin-left: 10px;
+   
+  }
+  .quemsomos h1 {
+    font-size: var(--texto-m);
+  }
+
+  .quemsomos h1::after {
+    width: 100px;
+  }
+
+  .quemsomos p {
+    font-size: var(--texto-p);
+  }
+
+  .mini-galeria img:nth-child(2) {
+    display: none;
+    
+  }
+
+  .mini-galeria img {
+    width: 400px;
+    height: auto;
+  }
+  .mini-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+  }
+
+  .membro h1 {
+    font-size: var(--texto-g);
+  }
+
+  .membro p {
+    font-size: var(--texto-m);
+    font-weight: 300;
+  }
+  .membro img {
+    max-width: 200px;
+  }
+
+  .contato h1 {
+    font-size: var(--texto-gg);
+
+  }
+
+  .card li {
+    font-size: var(--texto-m);
+  }
+}
+
+@media (max-width: 600px) {
+  .header-content {
+    width: 90vw;
+  }
+.logo img {
+  max-width: 60px;
+}
+
+.crashed-menu ul li {
+  font-size: var(--texto-m);
+}
+.crashed-menu img {
+  width: 120px;
+}
+.landing-page {
+  height: 90vh;
+}
+.landing-page h1 {
+  font-size: var(--texto-g);
+}
+.landing-page p {
+  font-size: var(--texto-p);
+}
+.landing-page nav a {
+font-size: var(--texto-pp);
+}
+.servicos h2 {
+  font-size: var(--texto-p);
+}
+.membro h1 {
+font-size: var(--texto-m);
+}
+.membro p {
+font-size: var(--texto-p);
+}
+.membro img {
+  max-width: 150px;
+}
+.contato h1 {
+  font-size: var(--texto-g);
+}
+
+}
+
+@media (max-width: 480px) {
+
+
+
+  .crashed-menu ul li::before {
+    width: 17px;
+    height: 17px;
+  }
+
+  
+ 
+
+  .quemsomos h1 {
+    font-size: var(--texto-p);
+  }
+  .quemsomos h1::after {
+    width: 50px;
+    margin: 10px 0;
+  
+  }
+
+  .quemsomos p {
+    font-size: var(--texto-pp);
+  }
+
+  .quemsomos-conteudo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .mini-galeria {
+  display: flex;
+  }
+
+  .mini-galeria img:nth-child(2) {
+    display: block;
+  }
+ 
+  .mini-galeria img {
+
+    height: 200px;
+  }
+  .contato h1 {
+    font-size: var(--texto-m);
+  
+  }
+
+  .card li {
+    font-size: var(--texto-p);
+    margin: 10px 0px;
+    padding: 10px;
+  }
+}

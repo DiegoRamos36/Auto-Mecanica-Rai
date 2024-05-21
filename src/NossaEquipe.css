@@ -1,0 +1,25 @@
+.time {
+  background-color: #0C0C0C;
+  padding: 20px;
+}
+
+.membro  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-family: var(--fonte-geral);
+  margin-bottom: 40px;
+}
+
+.membro img {
+  width: 300px;
+}
+
+.membro h1 {
+  font-size: var(--texto-gg);
+}
+
+.membro p {
+  font-size: var(--texto-g);
+}

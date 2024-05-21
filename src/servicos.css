@@ -1,0 +1,42 @@
+.servicos {
+  background-color: #0C0C0C;
+  padding: 10px;
+}
+
+.servicos ul li {
+  padding: 15px;
+  color: #fff;
+  font-family: var(--fonte-geral);
+  border-top: 1px solid var(--cor-principal);
+  transition: all .4s ease;
+  text-indent: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.servicos ul li:nth-child(1) {
+  border-top: none;
+}
+
+.servicos ul li::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--cor-principal);
+  border-radius: 50%;
+  transition: all .4s ease;
+}
+
+.servicos ul li:hover {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto);
+}
+.servicos ul li:hover::before {
+  background-color: var(--cor-texto);
+}
+
+.servicos h2 {
+  font-size: var(--texto-g);
+}

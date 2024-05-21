@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --cor-texto: #0C0C0C; 
+  --cor-hover: #eee;
+  --cor-decorativo: #B95916;
+  --cor-principal: #E94F37;
+  --texto-eg: 5.063rem;
+  --texto-gg: 3.375rem;
+  --texto-g: 2.25rem;
+  --texto-m: 1.5rem;
+  --texto-p: 1rem;
+  --texto-pp: 0.667rem;
+  --fonte-geral: Fira Sans;
+}
+
+
+.container {
+  max-width: 1400px;
+  margin: 20px auto;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
