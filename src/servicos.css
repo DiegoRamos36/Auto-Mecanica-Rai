@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  font-size: var(--texto-g);
 }
 
 .servicos ul li:nth-child(1) {
@@ -37,6 +38,4 @@
   background-color: var(--cor-texto);
 }
 
-.servicos h2 {
-  font-size: var(--texto-g);
-}
+

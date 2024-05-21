@@ -1,4 +1,4 @@
-import { goTo } from './App';
+import { goTo } from './functions';
 
 const Inicio = () => {
   function goWhatsapp() {
@@ -8,7 +8,7 @@ const Inicio = () => {
   }
   return (
     <main id="pagina-principal" className="landing-page">
-      <h1>confiança e cuidado.</h1>
+      <h1>confiança e resultado.</h1>
       <p>Tudo pensado no melhor pro cliente</p>
       <nav className="landing-page-nav">
         <a onClick={() => goTo('servicos')}>Nossos Serviços</a>

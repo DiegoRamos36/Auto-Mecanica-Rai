@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './assets/Rai.png';
-import { goTo } from './App';
+import { goTo } from './functions';
 const Header = () => {
   const [menu, setMenu] = React.useState(false);
   const [efeito, setEfeito] = React.useState(false);

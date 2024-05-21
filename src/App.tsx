@@ -6,13 +6,6 @@ import NossaEquipe from './NossaEquipe';
 import QuemSomos from './QuemSomos';
 import Servicos from './Servicos';
 
-export function goTo(id: string) {
-  const elemento = document.getElementById(id);
-  if (elemento) {
-    elemento.scrollIntoView({ behavior: 'smooth' });
-  }
-}
-
 function App() {
   return (
     <div>

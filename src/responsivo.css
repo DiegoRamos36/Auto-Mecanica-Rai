@@ -14,7 +14,10 @@
   }
  
   .header-content {
-    width: 95vw;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    position: fixed;
   }
 
   .header-content li:not(:last-child) {
@@ -39,12 +42,15 @@
     font-size: var(--texto-p);
   }
 
-  .servicos h2 {
+  .servicos ul li {
     font-size: var(--texto-m);
     text-indent: 0px;
     margin-left: 20px;
   }
   
+  .servicos li::before {
+    margin-right: 20px;
+  }
 
   .quemsomos-conteudo {
     display: flex;
@@ -101,7 +107,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
 
 .header {
  left: 0;
@@ -113,16 +119,16 @@
   width: 90vw;
 }
 .logo img {
-  max-width: 80px;
+  max-width: 60px;
 }
 
 .burguer-menu {
-  width: 40px;
-  height: 25px;
+  width: 35px;
+  height: 20px;
 }
 
 .bar {
-  height: 3px;
+  height: 2px;
 }
 
 .crashed-menu ul li {
@@ -145,7 +151,7 @@
 .landing-page nav a {
 font-size: var(--texto-p);
 }
-.servicos h2 {
+.servicos ul li {
   font-size: var(--texto-p);
 }
 .membro h1 {
@@ -165,17 +171,21 @@ font-size: var(--texto-p);
 
 @media (max-width: 480px) {
 
+  .landing-page h1 {
+    font-size: var(--texto-m);
+  }
 
-
-
+  .landing-page p {
+    font-size: var(--texto-p);
+  }
+  .landing-page nav a {
+    font-size: var(--texto-pp);
+  }
 
   .crashed-menu ul li::before {
     width: 17px;
     height: 17px;
   }
-
-  
- 
 
   .quemsomos h1 {
     font-size: var(--texto-p);

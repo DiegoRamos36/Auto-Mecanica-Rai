@@ -1,56 +1,93 @@
+import React from 'react';
+import { goService } from './functions';
 const Servicos = () => {
+  const [servico, setServico] = React.useState('');
+
+  React.useEffect(() => {
+    goService(servico);
+  }, [servico]);
   return (
     <section id="servicos" className="servicos">
       <ul className="container">
-        <li>
-          <span>
-            <h2>Troca de óleo</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Troca de óleo
         </li>
-        <li>
-          <span>
-            <h2>Alinhamento e balanceamento</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Alinhamento e balanceamento
         </li>
-        <li>
-          <span>
-            <h2>Manutenção de embreagem</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Manutenção de embreagem
         </li>
-        <li>
-          <span>
-            <h2>Revisão dos componentes de freio</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Revisão dos componentes de freio
         </li>
-        <li>
-          <span>
-            <h2>Checagem do nível de água no radiador</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Checagem do nível de água no radiador
         </li>
-        <li>
-          <span>
-            <h2>Atendimento personalizado e garantia de serviço</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Atendimento personalizado e garantia de serviço
         </li>
-        <li>
-          <span>
-            <h2>Injeção eletrônica computadorizada</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Injeção eletrônica computadorizada
         </li>
-        <li>
-          <span>
-            <h2>Limpeza de bico com regulagem</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Limpeza de bico com regulagem
         </li>
-        <li>
-          <span>
-            <h2>Sistema airbag</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Sistema airbag
         </li>
-        <li>
-          <span>
-            <h2>Caixa de marcha eletronica</h2>
-          </span>
+        <li
+          onClick={(event: React.MouseEvent) => {
+            setServico(event.currentTarget.innerHTML);
+            goService(servico);
+          }}
+        >
+          Caixa de marcha eletronica
         </li>
       </ul>
     </section>
