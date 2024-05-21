@@ -55,7 +55,7 @@ const Header = () => {
               onClick={() => {
                 efeitoMenu();
               }}
-              className="burguer-menu"
+              className={`burguer-menu ${efeito ? 'open' : ''}`}
             >
               <span className="bar"></span>
               <span className="bar"></span>
@@ -68,16 +68,44 @@ const Header = () => {
         <aside className={`crashed-menu ${efeito ? 'show' : ''}`}>
           <ul>
             <li>
-              <a onClick={() => goTo('servicos')}>Serviços</a>
+              <a
+                onClick={() => {
+                  goTo('servicos');
+                  efeitoMenu();
+                }}
+              >
+                Serviços
+              </a>
             </li>
             <li>
-              <a onClick={() => goTo('quemsomos')}>Quem Somos</a>
+              <a
+                onClick={() => {
+                  goTo('quemsomos');
+                  efeitoMenu();
+                }}
+              >
+                Quem Somos
+              </a>
             </li>
             <li>
-              <a onClick={() => goTo('equipe')}>Nossa Equipe</a>
+              <a
+                onClick={() => {
+                  goTo('equipe');
+                  efeitoMenu();
+                }}
+              >
+                Nossa Equipe
+              </a>
             </li>
             <li>
-              <a onClick={() => goTo('contato')}>Contato</a>
+              <a
+                onClick={() => {
+                  goTo('contato');
+                  efeitoMenu();
+                }}
+              >
+                Contato
+              </a>
             </li>
           </ul>
           <img

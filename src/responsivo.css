@@ -102,11 +102,27 @@
 }
 
 @media (max-width: 600px) {
-  .header-content {
-    width: 90vw;
-  }
+
+.header {
+ left: 0;
+ right: 0;
+ top: 20px;
+}
+
+.header-content {
+  width: 90vw;
+}
 .logo img {
-  max-width: 60px;
+  max-width: 80px;
+}
+
+.burguer-menu {
+  width: 40px;
+  height: 25px;
+}
+
+.bar {
+  height: 3px;
 }
 
 .crashed-menu ul li {
@@ -117,15 +133,17 @@
 }
 .landing-page {
   height: 90vh;
+  padding-top: 80px;
 }
 .landing-page h1 {
   font-size: var(--texto-g);
+  margin: 0 auto;
 }
 .landing-page p {
   font-size: var(--texto-p);
 }
 .landing-page nav a {
-font-size: var(--texto-pp);
+font-size: var(--texto-p);
 }
 .servicos h2 {
   font-size: var(--texto-p);
@@ -146,6 +164,8 @@ font-size: var(--texto-p);
 }
 
 @media (max-width: 480px) {
+
+
 
 
 

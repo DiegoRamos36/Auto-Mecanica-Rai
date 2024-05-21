@@ -39,7 +39,9 @@
 
 .landing-page-nav {
   display: flex;
+  margin: 0 auto;
   justify-content: space-between;
+
 }
 
 .landing-page-nav a {
