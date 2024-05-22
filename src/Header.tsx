@@ -109,7 +109,10 @@ const Header = () => {
             </li>
           </ul>
           <img
-            onClick={() => goTo('pagina-principal')}
+            onClick={() => {
+              goTo('pagina-principal');
+              efeitoMenu();
+            }}
             src={logo}
             alt="Logo Rai"
           />
