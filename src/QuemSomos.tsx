@@ -28,6 +28,16 @@ const QuemSomos = () => {
             voluptate recusandae ex nemo! Velit fuga tempore voluptate provident
             delectus cupiditate tempora itaque!
           </p>
+          <h1>Eficiência</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            possimus cupiditate aut quo, quis neque, a eligendi tempora,
+            provident iusto esse! Atque suscipit inventore laborum. Provident ex
+            harum officia nulla. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Magni nihil rem reiciendis minus fugit aliquam.
+            Labore eos eveniet excepturi, dolor in maiores molestias optio
+            nesciunt vero suscipit aspernatur temporibus libero.
+          </p>
         </div>
         <div className="mini-galeria">
           <div>

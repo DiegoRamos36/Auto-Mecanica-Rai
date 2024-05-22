@@ -14,7 +14,7 @@
   }
  
   .header-content {
-    width: 100vw;
+    width: 90vw;
     left: 0;
     right: 0;
     position: fixed;
@@ -151,6 +151,13 @@
 .landing-page nav a {
 font-size: var(--texto-p);
 }
+
+.localizacao {
+  font-size: var(--texto-p);
+}
+.landing-page h4 {
+  font-size: var(--texto-p);
+}
 .servicos ul li {
   font-size: var(--texto-p);
 }
@@ -222,9 +229,19 @@ font-size: var(--texto-p);
   
   }
 
+  .membro img {
+    max-width: 100px;
+  }
+
   .card li {
     font-size: var(--texto-p);
     margin: 10px 0px;
     padding: 10px;
+  }
+  .localizacao {
+    font-size: var(--texto-pp);
+  }
+  .landing-page h4 {
+    font-size: var(--texto-pp);
   }
 }

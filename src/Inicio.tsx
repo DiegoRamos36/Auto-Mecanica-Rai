@@ -14,6 +14,10 @@ const Inicio = () => {
         <a onClick={() => goTo('servicos')}>Nossos Serviços</a>
         <a onClick={() => goWhatsapp()}>Faça uma revisão</a>
       </nav>
+      <h3 className="localizacao">
+        Av. Joaquim da Costa Lima, 1180 b - Belford Roxo
+      </h3>
+      <h4>seg - sex : 08-18h | sab : 08-13h</h4>
     </main>
   );
 };

@@ -8,6 +8,16 @@
   background: url('assets/landingpage.jpeg') center;
 }
 
+.landing-page::after {
+  content: '';
+  display: block;
+  width: 600px;
+  transform: skew(45deg);
+  height: 4px;
+
+  margin-top: 20px;
+}
+
 .landing-page h1 {
   font-size: var(--texto-eg);
   color: #fff;
@@ -58,4 +68,32 @@
 .landing-page-nav a:hover {
   background-color: var(--cor-principal);
   color: var(--cor-texto);
+}
+
+.localizacao  {
+color: #fff;
+font-size: var(--texto-m);
+display: flex;
+align-items: center;
+font-weight: 400;
+font-family: var(--fonte-geral);
+margin-top: 40px;
+}
+
+.localizacao::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url('assets/localizacao.svg') no-repeat center;
+  margin-right: 20px;
+}
+
+.landing-page h4 {
+  color: #ccc;
+  font-size: var(--texto-m);
+  font-weight: 400;
+  font-style: italic;
+  font-family: var(--fonte-geral);
+  margin-top: 10px;
 }
