@@ -9,34 +9,30 @@ const QuemSomos = () => {
         <div className="quemsomos-items">
           <h1>Desde 1998</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellendus, quaerat rerum impedit, fuga odio pariatur sint veniam
-            modi natus quae, possimus ipsa laborum deleniti fugit soluta
-            distinctio corporis reprehenderit quos.
-          </p>
-          <h1>Profissionalismo</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            aperiam molestiae in animi maxime consectetur mollitia possimus,
-            soluta omnis! Officia incidunt distinctio repellendus, delectus
-            libero autem et rerum soluta? Aspernatur.
+            Nossa oficina está no mercado desde 1998, oferecendo serviços de
+            alta qualidade e confiabilidade. Com mais de duas décadas de
+            experiência, acumulamos um vasto conhecimento técnico e
+            aperfeiçoamos nossos processos para atender a todas as necessidades
+            dos nossos clientes. Nossa longa trajetória é um testemunho da nossa
+            dedicação e compromisso com a excelência.
           </p>
           <h1>Limpeza</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            pariatur numquam repudiandae, minima fugiat perferendis sequi maxime
-            voluptate recusandae ex nemo! Velit fuga tempore voluptate provident
-            delectus cupiditate tempora itaque!
+            Acreditamos que um ambiente limpo e organizado reflete a qualidade
+            dos nossos serviços. Nossa oficina é mantida com os mais altos
+            padrões de higiene, não só para garantir a segurança de todos, mas
+            também para proporcionar uma experiência agradável aos nossos
+            clientes. Um local limpo também contribui para a precisão e
+            eficiência dos nossos técnicos.
           </p>
           <h1>Eficiência</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            possimus cupiditate aut quo, quis neque, a eligendi tempora,
-            provident iusto esse! Atque suscipit inventore laborum. Provident ex
-            harum officia nulla. Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Magni nihil rem reiciendis minus fugit aliquam.
-            Labore eos eveniet excepturi, dolor in maiores molestias optio
-            nesciunt vero suscipit aspernatur temporibus libero.
+            Sabemos que o tempo dos nossos clientes é valioso, por isso, nos
+            dedicamos a oferecer um serviço rápido e eficiente sem comprometer a
+            qualidade. Utilizamos equipamentos modernos e técnicas avançadas
+            para diagnosticar e resolver problemas de forma ágil. Nossa meta é
+            sempre devolver o veículo ao cliente no menor tempo possível, com
+            todos os reparos realizados com perfeição.
           </p>
         </div>
         <div className="mini-galeria">

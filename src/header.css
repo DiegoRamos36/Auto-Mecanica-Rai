@@ -51,7 +51,6 @@ top: 0px;
   display: inline-block;
   font-size: var(--texto-m);
   font-family: var(--fonte-geral);
-  font-weight: 300;
   color: var(--cor-texto);
   padding: 10px;
   transition: all .3s ease;
@@ -125,7 +124,7 @@ transform-origin: top left;
 
 .crashed-menu ul li {
   padding: 20px;
-  font-size: var(--texto-g);
+  font-size: var(--texto-m);
   font-family: var(--fonte-geral);
   display: flex;
   align-items: center;
@@ -143,13 +142,13 @@ transform-origin: top left;
 .crashed-menu ul li::before {
   content: '';
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   background-color: var(--cor-principal);
   margin-right: 20px;
   border-radius: 50%;
 }
 
 .crashed-menu img {
-  width: 200px;
+  width: 120px;
 }

@@ -7,19 +7,19 @@
 }
 
 .quemsomos-conteudo {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  max-width: 1400px;
+  display: flex;
+justify-content: space-around;
+  max-width: 1500px;
   margin: 0 auto;
-  gap: 20px;
+
 }
 
 .quemsomos h1 {
-  font-size: var(--texto-g);
+  font-size: var(--texto-m);
   font-family: var(--fonte-geral);
   color: #fff;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   position: relative;
   z-index: 1;
 
@@ -28,20 +28,22 @@
 .quemsomos h1::after {
   content: '';
   display: block;
-  width: 200px;
+  width: 100px;
   height: 5px;
-  margin-top: 20px;
+  margin-top: 10px;
   transform: skew(-45deg);
   background-color: var(--cor-principal);
 }
 
-
-
+.quemsomos-items {
+  max-width: 600px;
+  line-height: 1.4;
+}
 
 
 .quemsomos p {
   color: #fff;
-  font-size: var(--texto-m);
+  font-size: var(--texto-p);
   font-family: var(--fonte-geral);
   max-width: 900px;
 }
@@ -49,10 +51,11 @@
 .mini-galeria {
   display: grid;
   grid-template-columns: 50% 50%;
+  align-items: center;
 }
 
 .mini-galeria img {
-  width: 300px;
+  width: 400px;
   height: 400px;
  
 }

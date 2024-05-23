@@ -5,12 +5,12 @@
   flex-direction: column;
  height: 80vh;
   background-color: #101010;
+  font-family: var(--fonte-geral);
 }
 
 
 .contato h1 {
   font-size: var(--texto-eg);
-  font-family: var(--fonte-geral);
   padding: 40px 0;
   color: #fff;
   display: flex;

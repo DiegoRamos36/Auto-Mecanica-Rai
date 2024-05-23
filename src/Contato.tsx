@@ -4,7 +4,7 @@ const Contato = () => {
       <div className="card">
         <h1>Faça uma Revisão</h1>
         <ul className="redes-sociais">
-          <li>+55 21 99258-1435</li>
+          <li>+55 21 99258-1436</li>
           <li>
             <a
               href="https://www.facebook.com/profile.php?id=100063818091329"

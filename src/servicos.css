@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: var(--texto-g);
+  font-size: var(--texto-m);
 }
 
 .servicos ul li:nth-child(1) {

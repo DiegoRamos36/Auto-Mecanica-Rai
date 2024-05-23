@@ -1,3 +1,22 @@
+@media (min-width: 1920px) {
+  .landing-page h1 {
+    font-size: var(--texto-eg);
+  }
+  .localizacao {
+    font-size: var(--texto-m);
+  }
+  .landing-page h4 {
+    font-size: var(--texto-m);
+  }
+  .landing-page p {
+    font-size: var(--texto-g);
+  }
+
+  .landing-page nav a {
+    font-size: var(--texto-g);
+  }
+}
+
 @media (max-width: 1000px) {
   .header {
     position: fixed;
@@ -58,7 +77,16 @@
   .quemsomos-conteudo {
     display: flex;
     margin-left: 10px;
+    gap: 20px;
    
+  }
+  .quemsomos {
+    padding-top: 0;
+  }
+
+  .quemsomos-items {
+    max-width: 400px;
+
   }
   .quemsomos h1 {
     font-size: var(--texto-m);
@@ -78,13 +106,12 @@
   }
 
   .mini-galeria img {
-    width: 400px;
+    max-width: 300px;
     height: auto;
   }
   .mini-galeria {
     display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
+    flex-direction: column;
 
   }
 
@@ -101,12 +128,12 @@
   }
 
   .contato h1 {
-    font-size: var(--texto-gg);
+    font-size: var(--texto-g);
 
   }
 
   .card li {
-    font-size: var(--texto-m);
+    font-size: var(--texto-p);
   }
 }
 
@@ -134,12 +161,6 @@
   height: 2px;
 }
 
-.crashed-menu ul li {
-  font-size: var(--texto-m);
-}
-.crashed-menu img {
-  width: 120px;
-}
 .landing-page {
   height: 90vh;
   padding-top: 80px;
@@ -151,8 +172,17 @@
 .landing-page p {
   font-size: var(--texto-p);
 }
+.landing-page p::after {
+  margin-top: 20px;
+}
+
+.landing-page nav {
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 .landing-page nav a {
-font-size: var(--texto-p);
+  font-size: var(--texto-p);
 }
 
 .localizacao {
@@ -163,6 +193,26 @@ font-size: var(--texto-p);
 }
 .servicos ul li {
   font-size: var(--texto-p);
+}
+.servicos ul li::before {
+  width: 14px;
+  height: 14px;
+}
+
+.quemsomos h1 {
+  font-size: var(--texto-p);
+}
+.quemsomos h1::after {
+  width: 50px;
+}
+.quemsomos p {
+  font-size: var(--texto-pp);
+}
+
+
+.mini-galeria img {
+  max-width: 250px;
+  max-width: 300px;
 }
 .membro h1 {
 font-size: var(--texto-m);
@@ -182,41 +232,46 @@ font-size: var(--texto-p);
 @media (max-width: 480px) {
 
   .landing-page h1 {
-    font-size: var(--texto-m);
+    font-size: var(--texto-g);
+    word-wrap: break-word;
   }
 
   .landing-page p {
     font-size: var(--texto-p);
   }
-  .landing-page nav a {
-    font-size: var(--texto-pp);
-  }
 
-  .crashed-menu ul li::before {
-    width: 17px;
-    height: 17px;
-  }
 
-  .quemsomos h1 {
-    font-size: var(--texto-p);
-  }
-  .quemsomos h1::after {
-    width: 50px;
-    margin: 10px 0;
+.localizacao {
+  word-wrap: break-word;
+  margin-left: 20px;
+}
   
+  .localizacao::before {
+    width: 20px;
+    height: 20px;
   }
 
-  .quemsomos p {
+  .servicos ul li {
     font-size: var(--texto-pp);
+  }
+  .servicos ul li::before {
+    width: 10px;
+    height: 10px;
   }
 
   .quemsomos-conteudo {
     display: grid;
     grid-template-columns: 50% 50%;
+    gap: 10px;
+  }
+
+  .quemsomos-items {
+    max-width: 230px;
   }
 
   .mini-galeria {
   display: flex;
+  max-width: 100%;
   }
 
   .mini-galeria img:nth-child(2) {
@@ -224,9 +279,11 @@ font-size: var(--texto-p);
   }
  
   .mini-galeria img {
-
-    height: 200px;
+    width: 100%;
+    height: 50%;;
   }
+
+
   .contato h1 {
     font-size: var(--texto-m);
   
@@ -237,14 +294,8 @@ font-size: var(--texto-p);
   }
 
   .card li {
-    font-size: var(--texto-p);
     margin: 10px 0px;
     padding: 10px;
   }
-  .localizacao {
-    font-size: var(--texto-pp);
-  }
-  .landing-page h4 {
-    font-size: var(--texto-pp);
-  }
+
 }

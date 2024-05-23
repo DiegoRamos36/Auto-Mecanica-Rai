@@ -19,7 +19,7 @@
 }
 
 .landing-page h1 {
-  font-size: var(--texto-eg);
+  font-size: var(--texto-gg);
   color: #fff;
   font-family: var(--fonte-geral);
   
@@ -59,9 +59,9 @@
   color: white;
   background-color: transparent;
   padding: 10px;
-  font-size: var(--texto-m);
+  font-size: var(--texto-p);
   font-family: var(--fonte-geral);
-  margin: 40px 20px;
+  margin: 40px 20px 20px 20px;
   transition: all .4s;
 }
 
@@ -72,7 +72,7 @@
 
 .localizacao  {
 color: #fff;
-font-size: var(--texto-m);
+font-size: var(--texto-p);
 display: flex;
 align-items: center;
 font-weight: 400;
@@ -91,7 +91,7 @@ margin-top: 40px;
 
 .landing-page h4 {
   color: #ccc;
-  font-size: var(--texto-m);
+  font-size: var(--texto-p);
   font-weight: 400;
   font-style: italic;
   font-family: var(--fonte-geral);
